@@ -117,3 +117,13 @@ button {
 .btn:focus {
   transform: scale(0.9);
 }
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.25em 0;
+  }
+}
