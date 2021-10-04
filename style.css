@@ -19,9 +19,9 @@ button {
 .title {
   font-family: 'Montserrat';
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
-  margin: 1em 0;
+  margin: 0.75em 0;
 }
 
 .container {
