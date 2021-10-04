@@ -35,10 +35,11 @@ function writeText() {
     idx++
     const id = setTimeout(writeText, 200)
 
-    if(idx > text.length) {
+    if(idx > text.length + 1) {
         fetchPokemon()
         setTimeout(showButtons, 700)
         clearTimeout(id)
+        title.style.display = "none"
     }
 }
 
