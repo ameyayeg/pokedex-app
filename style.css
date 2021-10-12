@@ -12,6 +12,10 @@ body {
   height: 100vh;
 }
 
+button {
+  margin: 0;
+}
+
 .title {
   font-family: 'Montserrat';
   font-weight: 400;
@@ -86,7 +90,7 @@ body {
 .buttonsdiv {
   visibility: hidden;
   text-align: center;
-  margin-top: 5em;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
