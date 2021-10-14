@@ -5,7 +5,7 @@ const previousBtn = document.querySelector('.previous')
 const nextBtn = document.querySelector('.next')
 const guess = document.querySelector('.guess')
 let difficult = false
-const text = " Who's that Pokemon?"
+const text = " Who's that Pokémon?"
 let idx = 1
 const kind = {
     fire: '🔥', 
