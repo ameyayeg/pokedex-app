@@ -4,6 +4,7 @@ const buttonsDiv = document.querySelector('.buttonsdiv')
 const previousBtn = document.querySelector('.previous')
 const nextBtn = document.querySelector('.next')
 const guess = document.querySelector('.guess')
+const yearCopy = document.querySelector('.year')
 let difficult = false
 const text = " Who's that Pokémon?"
 let idx = 1
@@ -159,3 +160,6 @@ document.body.addEventListener("click", e => {
         e.target.classList.remove('hidden')
     }
 })
+
+
+yearCopy.innerHTML = (new Date().getFullYear());

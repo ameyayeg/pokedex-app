@@ -24,6 +24,24 @@ main {
   min-height: 100vh;
 }
 
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 1em;
+  font-size: 1.2rem;
+}
+
+footer .twitter {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .twitter:hover,
+footer .twitter:focus {
+  color: rebeccapurple;
+}
+
 .title {
   font-family: 'Montserrat';
   font-weight: 400;
